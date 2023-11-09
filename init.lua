@@ -5,3 +5,7 @@
 --   pattern = "*",
 --   command = "tabdo wincmd =",
 -- })
+vim.opt.clipboard = "unnamed"
+vim.opt.mouse = "n"
+vim.wo.wrap = false
+vim.opt.swapfile = false

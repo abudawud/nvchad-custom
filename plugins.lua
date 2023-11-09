@@ -72,6 +72,10 @@ local plugins = {
   {
     'nvim-telescope/telescope-project.nvim'
   },
+  {
+    'mattn/emmet-vim',
+    lazy = false,
+  }
   -- To make a plugin not be loaded
   -- {
   --   "NvChad/nvim-colorizer.lua",
